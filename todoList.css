@@ -1,0 +1,11 @@
+body {
+  background-image: url(http://www.shabbyform.com/wp-content/uploads/2016/04/hot-chick.jpg);
+}
+
+#special {
+  background: green;
+}
+
+.completed {
+  text-decoration: line-through;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Forms Exercise</title>
+  </head>
+  <body>
+    <h1>Register</h1>
+    <form>
+      <label for="firstName">First Name:</label>
+      <input id="firstName" type="text" placeholder="John" name="fname" required>
+      <label for="lastName">Last Name:</label>
+      <input id="lastName" type="text" placeholder="Smith" name="lname" required>
+      <br>
+      <label for="male">Male</label>
+      <input name="gender" id="male" type="radio" value="male" required>
+      <label for="female">Female</label>
+      <input name="gender" id="female" type="radio" value="female" required>
+      <!-- He had other here but -->
+      <br>
+      <label for="Email">Email:</label>
+      <input id="Email" type="email" placeholder="your email" name="email" required>
+      <label for="Password">Password:</label>
+      <!-- The pattern element shown below requires 5 or more characters and is supported by most browsers. -->
+      <input id="Password" type="text" placeholder="your password" name="pass" pattern=".{5,}" required>
+      <br>
+      <label for="birthday">Birthday:</label>
+      <select name="month">
+        <!-- <option value="Month">Month</option> is not necessary -->
+        <option value="January">January</option>
+        <!-- continue doing this through all the months -->
+      </select>
+      <select name="day">
+        <!-- <option value="day">Day</option> is not necessary -->
+        <option value="1">1</option>
+        <!-- continue doing this for all the days -->
+      </select>
+      <select name="year">
+        <!-- <option value="year">Year</option> is not necessary -->
+        <option value="2018">2018</option>
+        <!-- Continue doing this for 100 years -->
+      </select>
+      <br>
+      <label for="terms">I agree to the terms and conditions</label>
+      <input id="terms" type="checkbox" required>
+      <br>
+      <button>Submit</button>
+
+    </form>
+
+  </body>
+</html>

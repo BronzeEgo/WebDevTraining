@@ -1,0 +1,37 @@
+/* In order of specificity */
+/* Type selectors */
+
+/* Value of 1 */
+li {
+  color: red;
+}
+
+/* Value of 2 */
+li a {
+
+}
+
+/* Value of 2 */
+li + a {
+
+}
+
+/* Class, Attribute, and Pseudo-Class Seloctors */
+
+/* Value of 10 */
+.hello {
+
+}
+
+/* Value of 10 */
+input[type="text"]{
+
+}
+
+/* Value of 10 */
+a:hover
+
+/* ID Selectors */
+
+/* Value of 100 */
+#hello

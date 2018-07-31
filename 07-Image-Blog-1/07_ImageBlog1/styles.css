@@ -1,0 +1,16 @@
+img {
+  width: 30%;
+  float: left;
+  margin: 1.66%;
+
+}
+
+h1 {
+  font-family: 'Shadows Into Light';
+  text-align: center;
+  border-bottom: 10px solid black;
+  /* width: 97.68%; */
+  margin-left: 1.66%;
+  margin-right: 1.66%;
+  padding-bottom: 20px;
+}

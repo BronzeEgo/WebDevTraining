@@ -1,0 +1,70 @@
+/* element */
+
+li {
+
+}
+
+/* Classes */
+
+.hello {
+
+}
+
+/* ID */
+
+#name {
+
+}
+
+/* Star */
+
+* {
+  /* This applies to every element */
+}
+
+/* Decendant selector */
+/* This version selects every anchor tag that is inside an li that is inside a ul.
+Decendant selectors will be used often!   */
+
+ul li a {
+
+}
+
+/* Adjacent selector */
+/* This one will apply changes to all things that ar adjacent to other things.
+In this example, all h4s that are adjacent to uls */
+
+h4 + ul {
+
+}
+
+/* Attribute selector */
+/* This will select things inside something with specific value.
+Below, it will do something to all anchor tags that have an href that leads to google. */
+
+a[href="http://google.com"] {
+
+}
+
+/* This one would style all inputs that are checkboxes */
+input[type="checkbox"] {
+
+}
+
+/* nth of type */
+/* Will select every nth of something. 'select every 5th div' */
+/* This would select every 5th from every group of divs (if I had them in groups) */
+/* This only happens once, so it would not select the 10th for example */
+
+div:nth-of-type(5) {
+
+}
+
+
+/* This would select every even row in a table and do somehting to it.
+VERY USEFUL FOR WHEN I MAKE TABLES */
+tr:nth-of-type(even) {
+
+}
+
+/* MANY MORE */

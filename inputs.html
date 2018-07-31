@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Inputs Demo</title>
+  </head>
+  <body>
+    <input type="radio">
+    <input type="checkbox">
+
+    <p>Do you prefer cats or dogs?</p>
+
+    <form>
+      <!-- The name= attribute creates the choice within HTML.  By giving both inputs
+      the same name, HTML knows that the choice is binary. This may be very similar
+      to a class system. -->
+      <label for="dogs">Dogs: </label>
+      <input name="petChoice" id="dogs" type="radio" value="DOGS">
+
+      <label for="cats">Cats: </label>
+      <input name="petChoice" id="cats" type="radio" value="CATS">
+      <p>What mood are you in?</p>
+<!-- 'name' = 'value' file:///J:/My%20Drive/Web%20Dev%20Training/inputs.html?color=happy -->
+      <select name="color">
+        <option value="happy">:)</option>
+        <option value="ehhh">:\</option>
+        <option value="ok...">:|</option>
+        <option value="sad">:()</option>
+      </select>
+
+      <textarea name="paragraph" rows="10" cols="50"></textarea>
+
+      <button>Dogs are better!</button>
+    </form>
+  </body>
+</html>

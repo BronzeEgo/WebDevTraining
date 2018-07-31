@@ -1,0 +1,37 @@
+h1 {
+  color:red;
+
+}
+li {
+  color:purple;
+}
+
+/* borders have three properties::afterwidth
+color
+style */
+
+body {
+  background: url(http://www.shabbyform.com/wp-content/uploads/2016/04/hot-chick.jpg);
+  /* background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+div {
+  background: #3498db;
+  /* border-color: #a2f3c4;
+  border-width: : 100px;
+  border-style: groove;  */
+
+  /* OR */
+
+  border: #a2f3c4 10px groove;
+}
+
+p {
+  color: #ecf0f1;
+}
+
+h4 {
+  background: pink;
+  
+}
